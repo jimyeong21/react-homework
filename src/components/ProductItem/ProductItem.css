@@ -1,0 +1,24 @@
+.product-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  .product-img {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .product-name {
+    margin-bottom: 0.6rem;
+    font-size: 1.6rem;
+  }
+
+  .product-price {
+    font-size: 1.4rem;
+    font-weight: 900;
+  }
+}
+
+.product-item+.product-item {
+  margin-top: 3rem;
+}

@@ -1,0 +1,21 @@
+.count-wrap {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.8rem;
+  background-color: #eee;
+  border: 1px solid #B3B3B3;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+
+  .count-num {
+    font-weight: 600;
+  }
+
+  & button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    color: #808080;
+    text-align: center;
+  }
+}
